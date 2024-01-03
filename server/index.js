@@ -27,8 +27,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		// origin: "http://localhost:3000",
-		origin: "https://mern-three-inky.vercel.app/",
+		//  origin: "http://localhost:3000",
+		origin: "https://mern-7uoh.vercel.app/",
 		credentials: true,
 	})
 );
